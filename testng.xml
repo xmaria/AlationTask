@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AmazonSearchCatalog">
+<parameter name="appURL" value="https://www.amazon.com/"/>
+<parameter name="browserType" value="firefox"/>
+  <test name="extractSearchResultData">
+    <classes>
+      <class name="com.test.scenarios.verifyAmazonSearchResult"/>
+    </classes>
+  </test> <!-- extractSearchResultData -->
+</suite> <!-- AmazonSearchCatalog -->
